@@ -271,7 +271,7 @@ import { Slider } from "infinite-react-carousel";
 import Breadcrumb from './../../ui/breadcrumbs';
 import { useQuery } from "@tanstack/react-query";
 import newRequest from "../../utils/newRequest.js";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Reviews from "../../components/reviews/Reviews.jsx";
 
 function Gig() {
@@ -284,7 +284,7 @@ function Gig() {
             })
     });
 
-    const userId=data?.userId;
+    const userId = data?.userId;
 
     const {
         isLoading: isLoadingUser,
@@ -296,7 +296,7 @@ function Gig() {
             newRequest.get(`/users/${userId}`).then((res) => {
                 return res.data;
             }),
-        enabled:!!userId,
+        enabled: !!userId,
     });
 
     if (isLoading) return "loading";
@@ -380,7 +380,7 @@ function Gig() {
                                 </p>
                             </div>
                         </div>}
-                    <Reviews gigId={id}/>
+                    <Reviews gigId={id} />
                 </div>
                 <div className="right">
                     <div className="price">
@@ -406,7 +406,9 @@ function Gig() {
                             </div>
                         ))}
                     </div>
-                    <button>Continue</button>
+                    <Link to={`/pay/${id}`}>
+                        <button>Continue</button>
+                    </Link>
                 </div>
             </div>
         </div>
