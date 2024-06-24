@@ -2,7 +2,7 @@
 
 # TalentPro
 
-Welcome to TalentPro, a premier freelancing portal where freelancers and creators can showcase their work and collaborate with businesses. This platform allows sellers to offer their services and buyers to find and purchase high-quality gigs. Built with the MERN stack, TalentPro ensures a seamless experience for all users.
+Welcome to TalentPro, a premier freelancing portal where freelancers and creators can showcase their work and collaborate with businesses. This platform allows Freelancers to offer their services and buyers to find and purchase high-quality gigs. Built with the MERN stack, TalentPro ensures a seamless experience for all users.
 
 ## Table of Contents
 - [Features](#features)
@@ -16,17 +16,17 @@ Welcome to TalentPro, a premier freelancing portal where freelancers and creator
 ### General
 - **User Authentication**: Secure registration and login process.
 - **Stripe Payment Integration**: Safe and secure payment gateway for transactions.
-- **User Profiles**: Separate buyer and seller accounts.
+- **User Profiles**: Separate buyer and Freelancer accounts.
 
-### Seller
-- **Gig Creation**: Sellers can create gigs with detailed descriptions and multiple features.
+### Freelancer
+- **Gig Creation**: Freelancers can create gigs with detailed descriptions and multiple features.
 - **Order Management**: View and manage orders, review requests, and deliver finished work.
 - **Chat Feature**: Direct communication with buyers, including a "mark as read" option.
 
 ### Buyer
 - **Gig Search and Filters**: Search for gigs, filter by price range, and sort by newest or most popular.
 - **Order and Review**: Purchase products, leave one review per product with a star rating.
-- **Chat Feature**: Direct communication with sellers, including a "mark as read" option.
+- **Chat Feature**: Direct communication with Freelancers, including a "mark as read" option.
 
 ## Technologies Used
 - **Frontend**: React.js
@@ -77,10 +77,10 @@ Welcome to TalentPro, a premier freelancing portal where freelancers and creator
 ## Usage
 
 1. **Register and Login**
-   - Create an account as a buyer or seller.
+   - Create an account as a buyer or Freelancer.
    - Use your credentials to log in.
 
-2. **For Sellers**
+2. **For Freelancers**
    - Create and manage gigs.
    - Review and deliver orders.
    - Communicate with buyers through the chat feature.
@@ -88,7 +88,7 @@ Welcome to TalentPro, a premier freelancing portal where freelancers and creator
 3. **For Buyers**
    - Search for gigs using filters.
    - Purchase gigs and leave reviews.
-   - Communicate with sellers through the chat feature.
+   - Communicate with Freelancers through the chat feature.
 
 ## Contributing
 
