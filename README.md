@@ -39,8 +39,8 @@ Welcome to TalentPro, a premier freelancing portal where freelancers and creator
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/talentpro.git
-   cd talentpro
+   https://github.com/Deecey01/talentPro.git
+   cd talentPro
    ```
 
 2. **Install dependencies**
