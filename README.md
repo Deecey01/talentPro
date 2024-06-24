@@ -46,16 +46,16 @@ Welcome to TalentPro, a premier freelancing portal where freelancers and creator
 2. **Install dependencies**
    ```bash
    # Backend dependencies
-   cd backend
+   cd api
    npm install
 
    # Frontend dependencies
-   cd ../frontend
+   cd ../client
    npm install
    ```
 
 3. **Set up environment variables**
-   Create a `.env` file in the `backend` directory and add your MongoDB URI, Stripe keys, and JWT secret.
+   Create a `.env` file in the `api` directory and add your MongoDB URI, Stripe keys, and JWT secret.
 
    ```env
    MONGO_URI=your_mongodb_uri
@@ -66,12 +66,12 @@ Welcome to TalentPro, a premier freelancing portal where freelancers and creator
 4. **Run the application**
    ```bash
    # Run backend
-   cd backend
-   npm start
+   cd api
+   yarn start
 
    # Run frontend
-   cd ../frontend
-   npm start
+   cd ../client
+   yarn start
    ```
 
 ## Usage
