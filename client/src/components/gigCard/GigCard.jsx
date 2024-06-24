@@ -19,7 +19,7 @@ const GigCard = ({ item }) => {
                     {isLoading ? (
                         "loading"
                     ) : error ? (
-                        "somethign went wrong"
+                        "something went wrong"
                     ) : (
                         <div className="user">
                             <img src={data.img || "/img/noavatar.jpg"} alt="" />
