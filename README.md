@@ -1,5 +1,3 @@
-Sure, here’s a structured and comprehensive README for your project, TalentPro:
-
 ---
 
 # TalentPro
